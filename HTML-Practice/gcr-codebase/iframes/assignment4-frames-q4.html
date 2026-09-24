@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frames Layout</title>
+</head>
+
+<frameset rows="30%,70%">
+
+    <frame
+        src="data:text/html,
+        <html>
+        <body>
+        <a href='data:text/html,<h2>Home</h2><p>Welcome to Home page.</p>'
+        target='bottom'>Home</a>
+        |
+        <a href='data:text/html,<h2>About</h2><p>This is About page.</p>'
+        target='bottom'>About</a>
+        |
+        <a href='data:text/html,<h2>Contact</h2><p>Contact us here.</p>'
+        target='bottom'>Contact</a>
+        </body>
+        </html>"
+        name="top">
+
+    <frame
+        src="data:text/html,<h2>Welcome to My Website</h2>"
+        name="bottom">
+
+</frameset>
+
+</html>
