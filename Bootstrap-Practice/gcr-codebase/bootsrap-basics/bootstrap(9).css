@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+}
+
+.article-card {
+    max-width: 800px;
+}

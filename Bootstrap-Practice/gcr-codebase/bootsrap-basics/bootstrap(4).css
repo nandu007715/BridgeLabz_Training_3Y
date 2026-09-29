@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+figure img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
